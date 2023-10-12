@@ -1,12 +1,44 @@
 {
-    "squadName":  "Super Hero Squad",
+    "categorias" : [
+        {
+            "name":"accesorios"
+        },
+        {
+            "name":"microfibra"
+        },
+        {
+            "name":"pad"
+        },
+        {
+            "name":"perfume"
+        },
+        {
+            "name":"pulimento"
+        },
+        {
+            "name":"sellador"
+        },
+        {
+            "name":"acondicionador"
+        },
+        {
+            "name":"limpiador"
+        },
+        {
+            "name":"quick detail"
+        },
+        {
+            "name":"shampoo"
+        }        
+    ],
+    "squadName" : "Super Hero Squad",
     "homeTown" : "Metro City",
     "formed" : 2016,
     "secretBase" : "Super tower",
     "active" : true,
     "members" : [
       {
-        "name" : "Molec Man",
+        "name" : "Molecule Man",
         "age" : 29,
         "secretIdentity" : "Dan Jukes",
         "powers" : [
@@ -36,17 +68,6 @@
           "Teleportation",
           "Interdimensional travel"
         ]
-      },
-      {
-        "name" : "Molecule Man",
-        "age" : 29,
-        "secretIdentity" : "Dan Jukes",
-        "powers" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
       }
-      
     ]
   }
