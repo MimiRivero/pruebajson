@@ -1,0 +1,91 @@
+{
+    "categorias" : 
+    [
+        {
+            "name":"accesorios"
+        },
+        {
+            "name":"microfibra"
+        },
+        {
+            "name":"pad"
+        },
+        {
+            "name":"perfume"
+        },
+        {
+            "name":"pulimento"
+        },
+        {
+            "name":"sellador"
+        },
+        {
+            "name":"acondicionador"
+        },
+        {
+            "name":"limpiador"
+        },
+        {
+            "name":"quick detail"
+        },
+        {
+            "name":"shampoo"
+        }        
+    ],
+
+    "marcas" : 
+    [
+        {
+            "name":"3D"
+        },
+        {
+            "name":"bad fish"
+        },
+        {
+            "name":"cintas"
+        },
+        {
+            "name":"gekatex"
+        },
+        {
+            "name":"generico"
+        },
+        {
+            "name":"koch chemie"
+        },
+        {
+            "name":"laffitte"
+        },
+        {
+            "name":"maxshine"
+        },
+        {
+            "name":"meguiars"
+        },
+        {
+            "name":"menzerna"
+        },
+        {
+            "name":"quirofano"
+        },
+        {
+            "name":"soft99"
+        },
+        {
+            "name":"sonax"
+        },
+        {
+            "name":"ternnova"
+        },
+        {
+            "name":"vonixx"
+        },
+        {
+            "name":"flexipads"
+        },
+        {
+            "name":"pys"
+        }
+                        
+    ]
+  }
