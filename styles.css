@@ -2,8 +2,8 @@
 
 :root{
     --primary-color:#14b8b8;
-    --background-color:#000000;
-    --dark-color:#151515;
+    --background-color:#ffffff;
+    --dark-color:#000000;
 }
 *{
     margin: 0%;
