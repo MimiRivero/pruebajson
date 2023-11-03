@@ -136,6 +136,10 @@ html{
     display: flex;
     gap: 2rem;
 }
+.menu-hamburguesa{
+    display: none;
+
+}
 
 .menu li{
     list-style: none;
@@ -546,8 +550,7 @@ footer{
     }
 
     .navbar{
-        padding: 1rem 2rem;
-        justify-content: end;
+        padding: 1rem;
     }
 
     .navbar .fa-bars{
@@ -557,7 +560,7 @@ footer{
     }
 
     .menu{
-        display: none;
+        visibility: hidden;
     }
 
     .content-banner{
@@ -607,7 +610,13 @@ footer{
     .container-products{
         grid-template-columns: repeat(auto-fit, minmax(28rem,1fr));
     }
-
+    .menu-hamburguesa{
+        display: flex;
+        justify-content: start;
+    }
+    .search-form{
+        justify-content: end;
+    }
 }
 
 @media screen and (max-width:468px){
@@ -629,8 +638,11 @@ footer{
         border-radius: 2rem;
     }
 
-
-    .navbar{
+    .menu-hamburguesa{
+        display: flex;
+        justify-content: start;
+    }
+    .search-form{
         justify-content: end;
     }
 
