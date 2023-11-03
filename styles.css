@@ -17,6 +17,7 @@ html{
     background-color: var(--primary-color);
 }
 
+
 .container{
     max-width: 120rem;
     margin: 0 auto;
@@ -32,13 +33,18 @@ html{
 
 .container-hero{
     background-color: var(--background-color);
+
 }
 
 .hero{
-    display: flex;
+    /* display: flex;*/
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 0; 
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-areas: "texto titulo iconos";
 }
 
 .customer-support{
@@ -58,13 +64,13 @@ html{
 
 .container-logo{
     display: flex;
+    grid-area: titulo;
     align-items: center;
+    justify-content: center;
     gap: .5rem;
 }
 
-.container-logo i{
-    font-size: 3rem;
-}
+
 
 .container-logo h1 a{
     text-decoration: none;
@@ -76,6 +82,8 @@ html{
 
 .container-user{
     display: flex;
+    justify-content: end;
+    grid-area: iconos;
     gap: 1rem;
     cursor: pointer;
 }
@@ -605,7 +613,15 @@ footer{
     html{
         font-size: 42.5%;
     }
-
+    .banner{
+        background-image: linear-gradient(100deg, #00000000, #00000000), url(https://mimirivero.github.io/pruebajson/IMG-20231031-WA0004.jpg);
+        height: 14vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .container-logo h1 a{
+        font-size: 2rem;
+    }
     .card-feature{
         flex-direction: column;
         border-radius: 2rem;
