@@ -588,7 +588,9 @@ footer{
         text-align: center;
         line-height: 1;
     }
-
+    .container-logo h1 a{
+        font-size: 2.4rem;
+    }
     .card-category span{
         font-size: 1.4rem;
     }
@@ -611,6 +613,7 @@ footer{
 @media screen and (max-width:468px){
     html{
         font-size: 42.5%;
+        
     }
     .banner{
         background-image: linear-gradient(100deg, #00000000, #00000000), url(https://mimirivero.github.io/pruebajson/IMG-20231031-WA0004.jpg);
@@ -628,10 +631,9 @@ footer{
 
 
     .navbar{
-        justify-content: center;
+        justify-content: end;
     }
 
-    
     .heading-1{
         font-size: 2.8rem;
     }
@@ -658,6 +660,7 @@ footer{
 
     .container-products{
         grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+        margin: 1rem;
     }
     .container-img .discount{
         font-size: 2rem;
@@ -673,8 +676,14 @@ footer{
     background-color: #000;
     color: #fff;
 
-}
-
+    }
+    .hero{
+        grid-template-columns:repeat(3,1fr);
+        grid-template-areas: "titulo texto iconos";
+    }
+    .container-categories{
+        margin: 1rem;
+    }
 
 
 
