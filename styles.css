@@ -426,14 +426,16 @@ html{
     position: absolute;
     left: 0%;
     background-color: var(--primary-color);
-    color: #fff;
     padding: 2px 1.2rem;
     border-radius: 1rem;
     font-size: 1.2rem;
+    opacity: 0;
 }
 
 .card-product:hover .discount{
+    opacity: 1;
     background-color: #000;
+    color: #fff;
 }
 
 .card-product:hover .button-group{
