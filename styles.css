@@ -175,6 +175,7 @@ html{
     color: #fff;
 }
 
+
 .search-form{
     position: relative;
     display: flex;
@@ -190,7 +191,7 @@ html{
     outline: none;
     font-family: inherit;
     border: none;
-    width: 25rem;
+    width: 35rem;
     font-size: 1.4rem;
     padding: 0 2rem;
     color: #777;
