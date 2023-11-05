@@ -8,7 +8,7 @@
             "Presentación": "UNIDAD",
             "Categoria": "Accesorios",
             "Cantidad": "1",
-            " Precio ": " $  1.000,00 ",
+            "Precio": " $  1.000,00 ",
             "Descripción": "Descripción"
         },
         {
@@ -19,7 +19,7 @@
             "Presentación": "UNIDAD",
             "Categoria": "Accesorios",
             "Cantidad": "1",
-            " Precio ": " $  4.000,00 ",
+            "Precio": " $  4.000,00 ",
             "Descripción": "cepillo ROSCA M14  de cerdas para limpieza de todo tipo de tapizados"
         },
         {
@@ -30,7 +30,7 @@
             "Presentación": "UNIDAD",
             "Categoria": "Accesorios",
             "Cantidad": "1",
-            " Precio ": " $  650,00 ",
+            "Precio": " $  650,00 ",
             "Descripción": "Cinta amarilla 18 mm DOBLE A"
         },
         {
@@ -41,7 +41,7 @@
             "Presentación": "UNIDAD",
             "Categoria": "Pad",
             "Cantidad": "1",
-            " Precio ": " $  3.500,00 ",
+            "Precio": " $  3.500,00 ",
             "Descripción": "Descripción"
         },
         {
@@ -74,7 +74,7 @@
             "Presentación": "KIT",
             "Categoria": "Accesorios",
             "Cantidad": "1",
-            " Precio ": " $  2.250,00 ",
+            "Precio": " $  2.250,00 ",
             "Descripción": "Descripción"
         },
         {
@@ -85,7 +85,7 @@
             "Presentación": "KIT",
             "Categoria": "Accesorios",
             "Cantidad": "1",
-            " Precio ": " $  7.600,00 ",
+            "Precio": " $  7.600,00 ",
             "Descripción": "Set de 3 unidades : nro 12, 10 y 8"
         },
         {
@@ -96,7 +96,7 @@
             "Presentación": "473 ML",
             "Categoria": "Limpiador",
             "Cantidad": "1",
-            " Precio ": " $  6.500,00 ",
+            "Precio": " $  6.500,00 ",
             "Descripción": "Limpiador de motor. Remueve grasa y suciedad. No daña mangueras ni componentes eléctricos."
         },
         {
@@ -107,7 +107,7 @@
             "Presentación": "1 KG",
             "Categoria": "Pulimento",
             "Cantidad": "1",
-            " Precio ": " $  11.000,00 ",
+            "Precio": " $  11.000,00 ",
             "Descripción": "Pulimento de corte"
         },
         {
@@ -118,7 +118,7 @@
             "Presentación": "1 LITRO",
             "Categoria": "Acondicionador",
             "Cantidad": "1",
-            " Precio ": " $  3.200,00 ",
+            "Precio": " $  3.200,00 ",
             "Descripción": "Acondicionador para motores y plasticos exteriores"
         }
     ]
