@@ -432,22 +432,9 @@ html {
     border-radius: .9rem;
 }
 
-.container-img .discount {
-    position: absolute;
-    left: 0%;
-    background-color: var(--primary-color);
-    padding: 2px 1.2rem;
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    opacity: 0;
 
-}
 
-.card-product:hover .discount {
-    opacity: 1;
-    background-color: #000;
-    color: #fff;
-}
+
 
 .content-card-product {
     display: grid;
@@ -514,13 +501,7 @@ html {
     font-weight: 600;
 }
 
-.content-card-product .price span {
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-decoration: line-through;
-    color: #777;
-    margin-left: .5rem;
-}
+
 
 /* ///////////   Footer  /////////// */
 
@@ -691,20 +672,9 @@ footer {
         margin: 1rem;
     }
 
-    .container-img .discount {
-        font-size: 2rem;
-    }
 
     .content-card-product h3 {
         font-size: 2.2rem;
-    }
-
-    .container-img .discount {
-        font-size: 1.2rem;
-        opacity: 1;
-        background-color: #000;
-        color: #fff;
-
     }
 
     .hero {
