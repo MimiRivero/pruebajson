@@ -1,0 +1,125 @@
+{
+    "productos": [
+        {
+            "Art.": "1003",
+            "imagen": "https://acdn.mitiendanube.com/stores/394/848/products/diseno-sin-titulo-2023-06-13t164353-0221-f684751b37a9db9d7016866855161880-1024-1024.png",
+            "Marca": "3D",
+            "Producto": "CEPILLO LARGO 3D PARA PASARRUEDAS",
+            "Presentación": "UNIDAD",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  1.000,00 ",
+            "Descripción": "Descripción"
+        },
+        {
+            "Art.": "2001",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_958520-MLA50905320259_072022-O.webp",
+            "Marca": "BAD FISH",
+            "Producto": "Cepillo limpia tapizado ROSCA M14 - 5\"",
+            "Presentación": "UNIDAD",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  4.000,00 ",
+            "Descripción": "cepillo ROSCA M14  de cerdas para limpieza de todo tipo de tapizados"
+        },
+        {
+            "Art.": "3001",
+            "imagen": "https://multimedia.3m.com/mws/media/1166785J/3m-performance-yellow-masking-tape-301-36-mm-x-55-m.jpg?width=506",
+            "Marca": "CINTAS",
+            "Producto": "CINTA DE ENMASCARAR AMARILLA",
+            "Presentación": "UNIDAD",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  650,00 ",
+            "Descripción": "Cinta amarilla 18 mm DOBLE A"
+        },
+        {
+            "Art.": "4001",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_848519-MLA48674759282_122021-O.webp",
+            "Marca": "GEKATEX",
+            "Producto": "PADS GEKATEX  5\"",
+            "Presentación": "UNIDAD",
+            "Categoria": "Pad",
+            "Cantidad": "1",
+            " Precio ": " $  3.500,00 ",
+            "Descripción": "Descripción"
+        },
+        {
+            "Art.": "5005",
+            "imagen": "https://mpcarshop.com.ar/wp-content/uploads/2021/08/pincel-black.jpg",
+            "Marca": "GENERICO",
+            "Producto": "SET PICELES NEGROS x 5 UNID",
+            "Presentación": "KIT",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  3.000,00 ",
+            "Descripción": "KIT 5 UN"
+        },
+        {
+            "Art.": "6010",
+            "imagen": "https://www.55detailshop.com.ar/wp-content/uploads/2018/09/Koch-Chemie-Ps-1.jpg",
+            "Marca": "KOCH CHEMIE",
+            "Producto": "Plast Star",
+            "Presentación": "1 LITRO",
+            "Categoria": "Acondicionador",
+            "Cantidad": "1",
+            " Precio ": " $  1.000,00 ",
+            "Descripción": "Acondicionador de plasticos exteriores"
+        },
+        {
+            "Art.": "7001",
+            "imagen": "https://www.55detailshop.com.ar/wp-content/uploads/2021/09/LAFFITTE-KIT-BROCHAS-X-3U.png",
+            "Marca": "LAFFITTE",
+            "Producto": "SET DE BROCHAS LAFFITTE x 3",
+            "Presentación": "KIT",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  2.250,00 ",
+            "Descripción": "Descripción"
+        },
+        {
+            "Art.": "8001",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_681074-MLA31608778431_072019-O.webp",
+            "Marca": "MAXSHINE",
+            "Producto": "Set brocha/cepillo detalladores ",
+            "Presentación": "KIT",
+            "Categoria": "Accesorios",
+            "Cantidad": "1",
+            " Precio ": " $  7.600,00 ",
+            "Descripción": "Set de 3 unidades : nro 12, 10 y 8"
+        },
+        {
+            "Art.": "9004",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_777401-MLA48643997048_122021-F.webp",
+            "Marca": "MEGUIARS",
+            "Producto": "Classic Engine Cleaner Spray",
+            "Presentación": "473 ML",
+            "Categoria": "Limpiador",
+            "Cantidad": "1",
+            " Precio ": " $  6.500,00 ",
+            "Descripción": "Limpiador de motor. Remueve grasa y suciedad. No daña mangueras ni componentes eléctricos."
+        },
+        {
+            "Art.": "10001",
+            "imagen": "https://www.mycarcleaning.co.uk/cdn/shop/files/MenzernaSuperHeavyCutCompound300_1024x1024_2x_19ea7bf6-d23d-4d72-9074-75841f109a11_800x.webp?v=1691933450",
+            "Marca": "MENZERNA",
+            "Producto": "MENZERNA 300",
+            "Presentación": "1 KG",
+            "Categoria": "Pulimento",
+            "Cantidad": "1",
+            " Precio ": " $  11.000,00 ",
+            "Descripción": "Pulimento de corte"
+        },
+        {
+            "Art.": "11001",
+            "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTR7xuY-KkcqwMOjCCEfjmUPWkEF2o_MHkunGQZJSBtcSFI393rX3rgUHAxcVH7g_c-ECVOa65SuB1Db5Zer7OWMLc_8t3B",
+            "Marca": "QUIROFANO",
+            "Producto": "Black Plastic QUIROFANO",
+            "Presentación": "1 LITRO",
+            "Categoria": "Acondicionador",
+            "Cantidad": "1",
+            " Precio ": " $  3.200,00 ",
+            "Descripción": "Acondicionador para motores y plasticos exteriores"
+        }
+    ]
+}
