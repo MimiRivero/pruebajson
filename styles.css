@@ -191,9 +191,9 @@ html{
     outline: none;
     font-family: inherit;
     border: none;
-    width: 35rem;
+    width: 30rem;
     font-size: 1.4rem;
-    padding: 0 2rem;
+    padding: 1 2rem;
     color: #777;
     cursor: pointer;
 }
