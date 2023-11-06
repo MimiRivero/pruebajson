@@ -411,8 +411,8 @@ html {
 
 .container-products {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 3rem;
 }
 
