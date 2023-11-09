@@ -36,7 +36,7 @@ function populateHeroes(obj) {
     p_precio = document.createElement('p');
     p_precio.classList.add('price');
     p_precio.textContent = ` ${categoria.Precio}`;
-    const crear = document.createElement('div');
+    const crear = document.createElement('img');
     const imagen = `${categoria.imagen}`;
     crear.src = imagen;
 
