@@ -441,7 +441,6 @@ html {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, min-content);
     row-gap: 1rem;
 }
 
