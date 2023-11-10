@@ -9,7 +9,7 @@
     for(let i=0; i < data.length; i++){
         productos=`
         <div class="card-product">
-            <div class="container-img" style="background-image:url(${data[i].imagen})"></div>
+            <div class="container-img" style="background-image:url(${data[i].Imagen})"></div>
             <div class="content-card-product">
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -22,7 +22,7 @@
                 <span class="add-cart">
                     <i class="fa-solid fa-basket-shopping"></i>
                 </span>
-                <p class="price">${data[i].precio}</p>
+                <p class="price">${data[i].Precio}</p>
             </div>`
         document.getElementById('container-products').innerHTML += productos
     }
