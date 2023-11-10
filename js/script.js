@@ -3,16 +3,13 @@
     .then(response => response.json())
     .then(data => mostrarData(data))
     .catch(error => console.log(error))
-
     const mostrarData = (data) => {
         console.log(data)
        let productos = ''
     for(let i=0; i < data.length; i++){
-        productos+=`<div class="container-products">
+        productos=`
         <div class="card-product">
-            <div class="container-img">
-                <img src="${data[i].imagen}" alt="">
-            </div>
+            <div class="container-img" style="background-image:url(${data[i].imagen})"></div>
             <div class="content-card-product">
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -25,9 +22,8 @@
                 <span class="add-cart">
                     <i class="fa-solid fa-basket-shopping"></i>
                 </span>
-                <p class="price">${data[i].Precio}</p>
-            </div>
-        </div>`
-        document.getElementById('container-products').innerHTML = productos
+                <p class="price">${data[i].precio}</p>
+            </div>`
+        document.getElementById('container-products').innerHTML += productos
     }
     }
