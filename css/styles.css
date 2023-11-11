@@ -427,15 +427,19 @@ html {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.455);
 }
 
+a {
+    all: unset;
+}
+
 .container-img {
     height: 200px;
     width: 100%;
     border-radius: .9rem;
-    background-size:contain;
+    background-size: contain;
     background-position: top;
-    position:relative;
+    position: relative;
     background-repeat: no-repeat;
-    
+
 }
 
 .content-card-product {
@@ -692,6 +696,7 @@ footer {
         font-size: 42.5%;
 
     }
+
     .search-form input {
         font-size: 1.2rem;
 
