@@ -708,7 +708,26 @@ footer {
         font-size: 2rem;
     }
     
-.container-options span {
+    .container-options span {
     font-size: 1.6rem;
+    }
 }
+@media screen and (max-width:450px) {
+    .card-product {
+        height: 240px;
+        width: 170px;
+    }
+    .container-img {
+        height: 100px;
+        width: 100%;
+    
+    }
+    .content-card-product h3 {
+
+        font-size: 1.9rem;
+    }
+    
+    .container-options span {
+    font-size: 1.6rem;
+    }
 }
