@@ -701,4 +701,21 @@ footer {
         font-size: 1.2rem;
 
     }
+    .card-product {
+        height: 250px;
+        width: 200px;
+    }
+    .container-img {
+        height: 120px;
+        width: 100%;
+    
+    }
+    .content-card-product h3 {
+
+        font-size: 2rem;
+    }
+    
+.container-options span {
+    font-size: 1.6rem;
+}
 }
