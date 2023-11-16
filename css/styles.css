@@ -647,6 +647,11 @@ footer {
         justify-content: end;
     }
 
+    .search-form input {
+        font-size: 1.2rem;
+
+    }
+
     .heading-1 {
         font-size: 2.8rem;
     }
@@ -688,18 +693,6 @@ footer {
 
     .container-categories {
         margin: 1rem;
-    }
-}
-
-@media screen and (max-width:615px) {
-    html {
-        font-size: 42.5%;
-
-    }
-
-    .search-form input {
-        font-size: 1.2rem;
-
     }
     .card-product {
         height: 250px;
