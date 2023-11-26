@@ -389,7 +389,7 @@ html {
     margin-bottom: 1rem;
 }
 
-.container-options span {
+.container-options button {
     color: #777;
     background-color: #efebeb;
     padding: .7rem 3rem;
@@ -397,14 +397,15 @@ html {
     text-transform: capitalize;
     border-radius: 2rem;
     cursor: pointer;
+    border: none;
 }
 
-.container-options span:hover {
+/* .container-options button:hover {
     background-color: var(--background-color);
     color: #fff;
-}
+} */
 
-.container-options span.active {
+.container-options button.active {
     background-color: var(--background-color);
     color: #fff;
 }
@@ -436,7 +437,6 @@ a {
     width: 100%;
     border-radius: .9rem;
     background-size: contain;
-    background-position: top;
     position: relative;
     background-repeat: no-repeat;
 
@@ -524,6 +524,24 @@ footer {
 }
 
 /* ///////////   Media Queries  /////////// */
+@media screen and (max-width:840px) {
+    .navbar {
+        padding: 1.4rem;
+    }
+
+    .navbar .fa-bars {
+        display: block;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .search-form {
+        width: 30rem;
+    }
+    .search-form input {
+        width: 32rem;
+    }
+}
 
 @media screen and (max-width:768px) {
     html {
@@ -540,20 +558,6 @@ footer {
 
     .content-shopping-cart {
         display: none;
-    }
-
-    .navbar {
-        padding: 1rem;
-    }
-
-    .navbar .fa-bars {
-        display: block;
-        color: #fff;
-        font-size: 3rem;
-    }
-
-    .menu {
-        visibility: hidden;
     }
 
     .content-banner {
@@ -593,17 +597,11 @@ footer {
         font-size: 1.4rem;
     }
 
-    /* .container-options{
-        align-items: center;
-    }
-
-    .container-options span{
-        text-align: center;
-        padding: 1rem 2rem;
-    } */
-
     .container-products {
         grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    }
+    .menu{
+        visibility: hidden;
     }
 
     .menu-hamburguesa {
@@ -670,11 +668,6 @@ footer {
         text-align: center;
     }
 
-    /* .container-options span{
-        font-size: 1.8rem;
-        padding: 1rem 1.5rem;
-        font-weight: 500;
-    } */
 
     .container-products {
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -708,7 +701,7 @@ footer {
         font-size: 2rem;
     }
     
-    .container-options span {
+    .container-options button {
     font-size: 1.6rem;
     }
 }
@@ -727,7 +720,7 @@ footer {
         font-size: 1.9rem;
     }
     
-    .container-options span {
+    .container-options button {
     font-size: 1.6rem;
     }
 }
