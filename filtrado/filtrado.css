@@ -200,44 +200,116 @@ html {
 }
 
 /* ////////  PRODUCTS  //////// */
-
-#section-products{
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    margin: 2rem;
+a{
+    all: unset;
 }
-.products{
+main{
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+#section-products{
+    width: 98%;
     display: flex;
-    height: 150px;
-    width: 80%;
-    margin-bottom: .8rem;
-    background-color: #fff;
-    border-radius: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    gap: .6rem;
+}
 
+.card-product {
+    height: 350px;
+    width: 280px;
+    background-color: #fcfcfc;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.455);
 }
 
 .container-img {
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 100%;
     border-radius: .9rem;
     background-size: contain;
-    background-position: top;
     position: relative;
     background-repeat: no-repeat;
 
 }
-.nom-prod {
-    font-size: 2.5rem;
+.content-card-product {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, min-content);
+    row-gap: 1rem;
 }
 
-.precio {
-    font-size: 3rem;
+.content-card-product h3 {
+    grid-row: 1/3;
+    grid-column: 1/-1;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+
+    cursor: pointer;
+}
+.add-cart {
+    justify-self: start;
+    border: 2px solid var(--background-color);
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.fa-solid,
-.fa-star {
-    font-size: 1.8rem;
+.add-cart:hover {
+    background-color: var(--primary-color);
+
+}
+
+.add-cart i {
+    font-size: 1.5rem;
+    color: var(--background-color);
+}
+
+.add-cart i:hover {
+    color: #000;
+}
+
+.content-card-product .price {
+    justify-self: end;
+    align-self: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.stars {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+
+.stars i {
+    font-size: 1.3rem;
     color: #D4AF37;
 }
+aside{
+
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    width: 100px;
+}
+.precios{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+.precios input{
+    width: 70px;
+}
+
 
