@@ -300,7 +300,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45vh;
+    height: 76vh;
     width: 100px;
 }
 .precios{
@@ -311,5 +311,11 @@ aside{
 .precios input{
     width: 70px;
 }
-
-
+.Texto-aside{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+aside p{
+    font-size: 1.2rem;
+    color: #151515;
+}
